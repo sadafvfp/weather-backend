@@ -1,0 +1,275 @@
+# Django Contrib
+# Copyright (C) 2019-2023 Salehian
+# Saeed Salehian <saeed@salehianasil.com>, 2019-2023.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.8.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-15 10:25-0600\n"
+"PO-Revision-Date: 2023-01-18 14:07+0330\n"
+"Last-Translator: Saeed Salehian <saeed@salehianasil.com>\n"
+"Language-Team: Salehian <info@salehianasil.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: django_contrib/error_pages/constants.py:7
+msgid "Bad Request"
+msgstr "درخواست اشتباه"
+
+#: django_contrib/error_pages/constants.py:9
+msgid "Unauthorized"
+msgstr "دسترسی غیرمجاز"
+
+#: django_contrib/error_pages/constants.py:10
+msgid "Your client is not authenticated to get requested URL from this server."
+msgstr "شما هنوز وارد سیستم نشده اید."
+
+#: django_contrib/error_pages/constants.py:12
+msgid "Payment Required"
+msgstr "اعتبار شما کافی نیست"
+
+#: django_contrib/error_pages/constants.py:14
+msgid "Forbidden"
+msgstr "دسترسی غیرمجاز"
+
+#: django_contrib/error_pages/constants.py:15
+msgid ""
+"Your client does not have permission to get requested URL from this server."
+msgstr "شما مجوز لازم جهت دسترسی به این سرویس را ندارید."
+
+#: django_contrib/error_pages/constants.py:18
+msgid "Not Found"
+msgstr "یافت نشد"
+
+#: django_contrib/error_pages/constants.py:19
+msgid "The requested URL was not found on this server."
+msgstr "صفحه مورد نظر یافت نشد."
+
+#: django_contrib/error_pages/constants.py:21
+msgid "Method Not Allowed"
+msgstr "انجام عملیات مورد نظر مجاز نیست"
+
+#: django_contrib/error_pages/constants.py:22
+msgid "Not Acceptable"
+msgstr "عملیات مورد نظر قابل اجرا نیست"
+
+#: django_contrib/error_pages/constants.py:23
+msgid "Proxy Authentication Required"
+msgstr "خطای IP ناشناس"
+
+#: django_contrib/error_pages/constants.py:24
+msgid "Request Timeout"
+msgstr "زمان درخواست شما منقضی شده است"
+
+#: django_contrib/error_pages/constants.py:25
+msgid "Conflict"
+msgstr "خطایی رخ داده است"
+
+#: django_contrib/error_pages/constants.py:26
+msgid "Gone"
+msgstr "از دسترس خارج شده"
+
+#: django_contrib/error_pages/constants.py:27
+msgid "Length Required"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:28
+msgid "Precondition Failed"
+msgstr "پیش شرط مورد نظر رعایت نشده است"
+
+#: django_contrib/error_pages/constants.py:29
+msgid "Payload Too Large"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:30
+msgid "Request-URI Too Long"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:31
+msgid "Unsupported Media Type"
+msgstr "فایل مورد نظر پشتیبانی نمی شود"
+
+#: django_contrib/error_pages/constants.py:32
+msgid "Requested Range Not Satisfiable"
+msgstr "انجام درخواست مورد نظر مقدور نیست"
+
+#: django_contrib/error_pages/constants.py:33
+msgid "Expectation Failed"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:34
+msgid "I'm a teapot"
+msgstr "خطای ناشناخته"
+
+#: django_contrib/error_pages/constants.py:35
+msgid "Misdirected Request"
+msgstr "درخواست اشتبا"
+
+#: django_contrib/error_pages/constants.py:36
+msgid "Unprocessable Entity"
+msgstr "مقدار ورودی اشتباه است"
+
+#: django_contrib/error_pages/constants.py:37
+msgid "Locked"
+msgstr "صفحه مورد نظر در دسترس نیست"
+
+#: django_contrib/error_pages/constants.py:38
+msgid "Failed Dependency"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:39
+msgid "Upgrade Required"
+msgstr "نیازمند به روز رسانی"
+
+#: django_contrib/error_pages/constants.py:40
+msgid "Precondition Required"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:41
+msgid "Too Many Requests"
+msgstr "درخواست بیش از حد مجاز"
+
+#: django_contrib/error_pages/constants.py:42
+msgid "Request Header Fields Too Large"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:43
+msgid "Connection Closed Without Response"
+msgstr "درخواست مورد نظر بدون پاسخ لغو گردید"
+
+#: django_contrib/error_pages/constants.py:44
+msgid "Unavailable For Legal Reasons"
+msgstr "اجرای درخواست شما به دلایل قانونی قابل انجام نیست"
+
+#: django_contrib/error_pages/constants.py:45
+msgid "Client Closed Request"
+msgstr "درخواست مورد نظر توسط کاربر لغو شد"
+
+#: django_contrib/error_pages/constants.py:49
+msgid "Internal Server Error"
+msgstr "خطای سرور"
+
+#: django_contrib/error_pages/constants.py:50
+msgid "The server encountered an unexpected error. We are working on it."
+msgstr "مشکلی رخ داده است، لطفا کمی بعد دوباره تلاش کنید."
+
+#: django_contrib/error_pages/constants.py:53
+msgid "Not Implemented"
+msgstr "عدم قابلیت انجام"
+
+#: django_contrib/error_pages/constants.py:54
+msgid ""
+"Sorry, The server does not support the functionality required to fulfill "
+"your request."
+msgstr "با عرض پوزش، سیستم قادر به اجرای درخواست مورد نظر نیست."
+
+#: django_contrib/error_pages/constants.py:57
+msgid "Bad Gateway"
+msgstr "سرور خارج از دسترس"
+
+#: django_contrib/error_pages/constants.py:58
+msgid "The server is not available right now. Please try later again."
+msgstr "در حال حاضر سرور قادر به پاسخگویی نیست، لطفا کمی بعد دوباره تلاش کنید."
+
+#: django_contrib/error_pages/constants.py:61
+msgid "Service Unavailable"
+msgstr "سرویس خارج از دسترس"
+
+#: django_contrib/error_pages/constants.py:62
+msgid "The server is not available temporary. Please try later again."
+msgstr ""
+"سرور به صورت موقت از دسترس خارج شده است، لطفا کمی بعد دوباره تلاش کنید."
+
+#: django_contrib/error_pages/constants.py:65
+msgid "Gateway Timeout"
+msgstr "سرویس خارج از دسترس"
+
+#: django_contrib/error_pages/constants.py:66
+msgid "The requested URL got timeout. Please try later again."
+msgstr "صفحه مورد نظر در دسترس نمی باشد، لطفا کمی بعد دوباره تلاش کنید."
+
+#: django_contrib/error_pages/constants.py:69
+msgid "HTTP Version Not Supported"
+msgstr "نسخه HTTP پشتیبانی نمی شود"
+
+#: django_contrib/error_pages/constants.py:70
+msgid ""
+"The server does not support the major version of HTTP that was used in the "
+"request message."
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:73
+msgid "Variant Also Negotiates"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:74
+msgid "Server internal configuration error. We are working on it."
+msgstr "خطا در تنظیمات سرور، لطفا منتظر بمانید."
+
+#: django_contrib/error_pages/constants.py:77
+msgid "Insufficient Storage"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:78
+msgid ""
+"The server is unable to successfully complete the request. We are working on "
+"it."
+msgstr "سیستم در حال حاضر قادر به پاسخگویی نیست، لطفا منتظر بمانید."
+
+#: django_contrib/error_pages/constants.py:81
+msgid "Loop Detected"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:82
+msgid "Operation failed. We are working on it."
+msgstr "عملیات مورد نظر قابل انجام نیست."
+
+#: django_contrib/error_pages/constants.py:85
+msgid "Not Extended"
+msgstr ""
+
+#: django_contrib/error_pages/constants.py:86
+msgid "The policy for accessing the resource has not been met in the request."
+msgstr "شما مجاز به دسترسی به صفحه مورد نظر نیستید."
+
+#: django_contrib/error_pages/constants.py:89
+msgid "Network Authentication Required"
+msgstr "مشکل دسترسی شبکه"
+
+#: django_contrib/error_pages/constants.py:90
+msgid "The client needs to authenticate to gain network access."
+msgstr "کاربر گرامی لطفا جهت ادامه عملیات دوباره وارد حساب کاربری خود شوید."
+
+#: django_contrib/error_pages/constants.py:93
+msgid "Network Connect Timeout Error"
+msgstr "عدم اتصال شبکه"
+
+#: django_contrib/error_pages/constants.py:94
+msgid ""
+"The client proxy network connection timeout. Please check your internet and "
+"proxy connection"
+msgstr ""
+"شما به شبکه متصل نیستید، لطفا تنظیمات پروکسی و اینترنت خود را بررسی نمایید."
+
+#: django_contrib/error_pages/templates/error.html:283
+msgid "Oops! That is an error."
+msgstr "اوه× خطایی رخ داده است."
+
+#: django_contrib/error_pages/templates/error.html:284
+msgid "Sorry, an error has been occurred."
+msgstr "متاسفانه خطایی رخ داده است."
+
+#: django_contrib/error_pages/templates/error.html:286
+msgid "Go back to homepage"
+msgstr "بازگشت به صفحه اصلی"
+
+#: django_contrib/error_pages/templates/error.html:291
+#, python-format
+msgid "Follow <a href=\"%(site_url)s\">%(name)s</a> on social medias"
+msgstr ""
+"<a href=\"%(site_url)s\">%(name)s</a> را در شبکه‌‌های اجتماعی دنبال کنید."

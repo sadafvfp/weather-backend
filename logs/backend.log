@@ -1,0 +1,452 @@
+2026-10-07 14:38:26,417 django.request       ERROR    Internal Server Error: /accounts/password/change/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x00000167C5C176D0> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-07 14:38:29,159 django.request       ERROR    Internal Server Error: /accounts/profile/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x00000167C5C176D0> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-07 14:38:30,987 django.request       ERROR    Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x00000167C5C176D0> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-07 14:38:32,696 django.request       ERROR    Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x00000167C5C176D0> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-07 14:38:34,452 django.request       ERROR    Internal Server Error: /accounts/users/bf1530fb-edbd-466c-a137-d24164c882ad/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x00000167C5C176D0> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-07 14:38:36,196 django.request       ERROR    Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x00000167C5C176D0> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-07 14:38:37,918 django.request       ERROR    Internal Server Error: /accounts/users/0ac8a199-8dbc-4eff-b730-7ad6b96df6d4/reset-password/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x00000167C5C176D0> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-07 14:38:39,630 django.request       ERROR    Internal Server Error: /accounts/users/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\asgiref\local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x00000167C5C176D0> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\contrib\sessions\backends\cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-07 14:57:04,663 django.request       ERROR    Internal Server Error: /accounts/users/d42ab2c0-1e19-49fd-a219-f08307d37780/devices/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\rest_framework\views.py", line 526, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\rest_framework\views.py", line 474, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\rest_framework\views.py", line 485, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\code\weather-data-platform\env\Lib\site-packages\rest_framework\views.py", line 523, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\backend\apps\accounts\views.py", line 73, in post
+    return self._set_device(add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\code\weather-data-platform\backend\apps\accounts\views.py", line 80, in _set_device
+    serializer = self.get_serializer(data=request.data)
+                                          ^^^^^^^
+NameError: name 'request' is not defined
+2026-10-13 18:43:50,631 django.request       ERROR    Internal Server Error: /device/deviceinfo/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x741546bf8b60> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 309, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/sessions/backends/cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-13 18:43:55,784 django.server        ERROR    "GET /device/deviceinfo/ HTTP/1.1" 500 145
+2026-10-13 18:43:55,963 django.request       ERROR    Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x741546bf8b60> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 309, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/sessions/backends/cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-13 18:44:00,433 django.server        ERROR    "GET /favicon.ico HTTP/1.1" 500 145
+2026-10-13 18:43:58,104 django.request       ERROR    Internal Server Error: /device/deviceinfo/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 56, in __getattr__
+    return self._storage().data[key]
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 158, in __getattr__
+    return getattr(storage, key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/local.py", line 58, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local._CVar object at 0x741546bf8b60> object has no attribute 'sessions'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 309, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/sessions/backends/cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.bthe pase.InvalidCacheBackendError: The connection 'sessions' doesn't exist.
+2026-10-13 18:44:04,697 django.server        ERROR    "GET /device/deviceinfo/ HTTP/1.1" 500 145
